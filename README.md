@@ -14,9 +14,13 @@ Install basicsr
 ```
 python setup.py develop --no_cuda_ext
 ```
-run
+Train
 ```
 python basicsr/train.py -opt all/Options/test.yml
+```
+test
+```
+python all/test.py
 ```
 ########################################################################
 # Segmentation part is based on FRNet.
